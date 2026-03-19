@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">股票决策</string>
+
+    <!-- Main Screen -->
+    <string name="stock_input_title">添加监控股票</string>
+    <string name="stock_symbol">股票代码</string>
+    <string name="stock_symbol_hint">如: 600036.SH 或 AAPL</string>
+    <string name="buy_price">买入价格</string>
+    <string name="buy_price_hint">输入买入价格</string>
+    <string name="quantity">买入数量</string>
+    <string name="quantity_hint">输入买入数量</string>
+    <string name="target_return">期望收益率 (%)</string>
+    <string name="target_return_hint">如: 10 表示 10%</string>
+    <string name="target_price">期望价格</string>
+    <string name="target_price_hint">输入期望卖出价格</string>
+    <string name="start_monitoring">开始监控</string>
+    <string name="monitoring_list">监控列表</string>
+    <string name="no_stocks">暂无监控股票</string>
+    <string name="current_price">当前价格: %.2f</string>
+    <string name="current_return">当前收益率: %.2f%%</string>
+    <string name="target_return_label">目标: %.1f%%</string>
+    <string name="target_price_label">目标价: %.2f</string>
+    <string name="status_monitoring">监控中</string>
+    <string name="status_triggered">已触发</string>
+    <string name="delete">删除</string>
+    <string name="view_detail">查看详情</string>
+    <string name="email_config">邮件配置</string>
+    <string name="api_key_config">API Key 管理</string>
+
+    <!-- Stock Detail Screen -->
+    <string name="stock_detail">股票详情</string>
+    <string name="price_history">历史价格走势</string>
+    <string name="statistics">统计数据</string>
+    <string name="historical_high">历史最高价</string>
+    <string name="historical_low">历史最低价</string>
+    <string name="three_month_high">近三月最高</string>
+    <string name="three_month_low">近三月最低</string>
+    <string name="news_title">财经资讯</string>
+    <string name="ai_recommendation">AI 预测与推荐</string>
+    <string name="ai_prediction_title">AI 预测</string>
+    <string name="weekly_recommendations">本周推荐</string>
+    <string name="back">返回</string>
+
+    <!-- Email Config Screen -->
+    <string name="email_config_title">邮件提醒配置</string>
+    <string name="smtp_server">SMTP 服务器</string>
+    <string name="smtp_server_hint">如: smtp.gmail.com</string>
+    <string name="smtp_port">端口</string>
+    <string name="smtp_port_hint">如: 587</string>
+    <string name="email_username">邮箱账号</string>
+    <string name="email_username_hint">发送方邮箱地址</string>
+    <string name="email_password">邮箱密码/授权码</string>
+    <string name="email_password_hint">SMTP 授权码</string>
+    <string name="recipient_email">接收邮箱</string>
+    <string name="recipient_email_hint">接收提醒的邮箱地址</string>
+    <string name="save_config">保存配置</string>
+    <string name="test_email">发送测试邮件</string>
+    <string name="config_saved">配置已保存</string>
+    <string name="test_email_sent">测试邮件已发送</string>
+    <string name="test_email_failed">测试邮件发送失败</string>
+
+    <!-- Notification -->
+    <string name="channel_name">股票价格提醒</string>
+    <string name="channel_description">股票价格达到目标时发送提醒</string>
+    <string name="notification_title">股票价格提醒</string>
+    <string name="notification_content">%s 当前价格 %.2f，已达到目标条件</string>
+    <string name="stop_monitoring">停止监控</string>
+    <string name="mark_as_triggered">标记已触发</string>
+
+    <!-- Dialog -->
+    <string name="alert_triggered_title">价格提醒触发</string>
+    <string name="alert_triggered_message">股票 %s 当前价格 %.2f 已达到您设置的条件</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!-- Errors -->
+    <string name="error_network">网络连接失败，请检查网络设置</string>
+    <string name="error_api_limit">API 调用频率限制，请稍后再试</string>
+    <string name="error_invalid_symbol">无效的股票代码</string>
+    <string name="error_invalid_price">请输入有效的价格</string>
+    <string name="error_invalid_quantity">请输入有效的数量</string>
+    <string name="error_save_failed">保存失败，请重试</string>
+
+    <!-- Service -->
+    <string name="service_notification_title">股票监控服务运行中</string>
+    <string name="service_notification_content">正在监控 %d 只股票</string>
+</resources>
